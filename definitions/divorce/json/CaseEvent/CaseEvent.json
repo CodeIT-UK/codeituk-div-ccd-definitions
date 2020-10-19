@@ -776,7 +776,7 @@
     "Name": "Issue Personal Service Pack",
     "Description": "Issue Personal Service Pack to petitioner's solicitor (if service method = Personal Service)",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "Issued",
+    "PreConditionState(s)": "Issued;AosOverdue",
     "PostConditionState": "AwaitingService",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
